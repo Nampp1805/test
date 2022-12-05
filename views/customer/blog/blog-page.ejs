@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <link rel="stylesheet" href="/css/customer/blog-css/blog.css">
+        <link rel="stylesheet" href="/css/admin/main-page.css">
+        <link href="/css/font-awesome/css/all.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon"
+            href="/img/Img/ico-32x32_32x32.webp" />
+    </head>
+    <body>
+        <div class="row-promotion" id="row-promotion">
+            <div class="common-col-promotion">
+                Freeship cho đơn hàng từ 1 triệu đồng
+            </div>
+            <div class="common-col-promotion col-x"
+                onclick="button_promotion()">x</div>
+        </div>
+        <div class="row-header" id="row-header">
+            <div class="col-1-header">LETHNIC</div>
+            <div class="col-2-menu-header">
+                <ul>
+                    <li>
+                        <div class="parent-sup-menu">Ví Nam</div>
+                        <div class="sup-menu-header">
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Mini - Nhỏ Gọn - Ví
+                                    Card</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Kẹp Tiền - Money
+                                    Clip</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Handmade</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Ngang</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Đứng</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Gập Đôi - Bifold
+                                    Wallet</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Gập Ba - Trifold
+                                    Wallet</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Có Ngăn Khóa Kéo</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Dài Nam</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví vải</div>
+                            </div>
+                            <div class="common-menu-wallet" style="border:
+                                none">
+                                <div class="hover-wallet">Tất cả cho Nam</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="parent-sup-menu">Ví Nữ</div>
+                        <div class="sup-menu-header">
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Mini - Ví Card</div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Ví Dài </div>
+                            </div>
+                            <div class="common-menu-wallet">
+                                <div class="hover-wallet">Tất cả cho nữ</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parent-sup-menu">Thắt Lưng</div>
+                        </li>
+                        <li>
+                            <div class="parent-sup-menu">Collection</div>
+                            <div class="sup-menu-header">
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Love Collection -
+                                        Valentine 2022</div>
+                                </div>
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Meron Collection
+                                    </div>
+                                </div>
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Sáp - Waxed Oil
+                                        Leather </div>
+                                </div>
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Leader Collection
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parent-sup-menu pos-icon">
+                                Khắc Tên
+                                <div class="icon-hot">hot
+                                    <div class="arrow-right"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parent-sup-menu">Blog</div>
+                            <div class="sup-menu-header">
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Xu Hướng </div>
+                                </div>
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Quà Tặng</div>
+                                </div>
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Kiến Thức Ngành</div>
+                                </div>
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Phong Thuỷ</div>
+                                </div>
+                                <div class="common-menu-wallet">
+                                    <div class="hover-wallet">Tuyển Dụng</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="parent-sup-menu">Tuyển Dụng</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3-header">
+                    <div class="accounts">
+                        <a href="/account">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    <div class="accounts">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="accounts">
+                        <i class="fas fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="big-content">
+                <div class="content-left">
+                    <div class="content-left-1">
+                        CATEGORIES
+                        <div class="text-content-left-1">Xu Hướng</div>
+                        <div class="text-content-left-1">Quà Tặng</div>
+                        <div class="text-content-left-1">Kiến Thức Ngành</div>
+                        <div class="text-content-left-1">Phong Thuỷ</div>
+                        <div class="text-content-left-1">Tuyển Dụng</div>
+                    </div>
+                    <div class="content-left-2">
+                        <div class="title-content-left-2">BÀI VIẾT MỚI</div>
+                        <div class="news">
+                            <div class="common-news">
+                                <div class="common-news-image">
+                                    <img
+                                        src="https://cdn.shopify.com/s/files/1/0329/1912/6147/articles/lethnic_Saffiano_Leather_100x100_crop_center.jpg?v=1651138184"
+                                        alt="">
+                                </div>
+                                <div class="common-news-text">
+                                    <div class="common-news-describe">Chất da
+                                        Saffiano- Lịch sử & đặc tính</div>
+                                    <div class="common-news-time">28, April,
+                                        2022</div>
+                                </div>
+                            </div>
+                            <div class="common-news">
+                                <div class="common-news-image">
+                                    <img
+                                        src="https://cdn.shopify.com/s/files/1/0329/1912/6147/articles/Lethnic-Quy-Tac-Dong-Phuc-Cong-so_0ae7189c-92d6-455c-b864-7fd1f7e45098_100x100_crop_center.jpg?v=1619768676"
+                                        alt="">
+                                </div>
+                                <div class="common-news-text">
+                                    <div class="common-news-describe">Quy tắc
+                                        trang phục công sở: Sự quan trọng của
+                                        màu sắc
+                                    </div>
+                                    <div class="common-news-time">05, March,
+                                        2021</div>
+                                </div>
+                            </div>
+                            <div class="common-news">
+                                <div class="icommon-news-image">
+                                    <img
+                                        src="https://cdn.shopify.com/s/files/1/0329/1912/6147/articles/Pantone-2021-Illuminating-Ultimate-Gray_100x100_crop_center.jpg?v=1619768209"
+                                        alt="">
+                                </div>
+                                <div class="common-news-text">
+                                    <div class="common-news-describe">Pantone
+                                        công bố màu của năm 2021: Illuminating
+                                        và Ultimate
+                                        Gray</div>
+                                    <div class="common-news-time">06, January,
+                                        2021</div>
+                                </div>
+                            </div>
+                            <div class="common-news">
+                                <div class="common-news-image">
+                                    <img
+                                        src="https://cdn.shopify.com/s/files/1/0329/1912/6147/articles/Nhung_sai_lam_khien_do_da_nhanh_hong_100x100_crop_center.jpg?v=1619767431"
+                                        alt="">
+                                </div>
+                                <div class="common-news-text">
+                                    <div class="common-news-describe">Những quan
+                                        điểm sai lầm khiến món đồ da của bạn
+                                        nhanh hỏng
+                                    </div>
+                                    <div class="common-news-time">08, July, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="common-content-right-small">
+                        <div class="image-content-right image-1"></div>
+                        <div class="title-content-right">Chất da Saffiano - Lịch
+                            sử & đặc tính.</div>
+                        <div class="time-content-right">April 28, 2022</div>
+                        <div class="post-content-right">Thời gian gần đây
+                            Lethnic đã giới thiệu nhiều hơn các mẫu sản phẩm
+                            được
+                            thi công bằng chất liệu da Saffiano. Vậy da Saffiano
+                            là gì? Chúng có đặc điểm gì nổi bật mà Lethnic
+                            lựa chọn cho bộ sản phẩm mới? Trong bài viết này
+                            chúng ta cùng nhau tìm hiểu về nó nhé!Da Saffiano
+                            là chất da được khai sinh bởi nhà mốt danh tiếng
+                            Prada từ năm...
+                        </div>
+                        <div class="btn">READ MORE</div>
+                    </div>
+                    <div class="common-content-right-small">
+                        <div class="image-content-right image-2"></div>
+                        <div class="title-content-right">Quy tắc trang phục công
+                            sở: Sự quan trọng của màu sắc</div>
+                        <div class="time-content-right">March 5, 2021</div>
+                        <div class="post-content-right">Hiện nay, hầu hết mọi
+                            lĩnh vực ngành nghề đều có những thách thức và
+                            cạnh tranh hơn bao giờ hết. Để đạt đến thành công và
+                            ấn tượng trong lòng mọi người không đơn giản
+                            chỉ là đạt được những con số. Hãy nhớ rằng tạo được
+                            ấn tượng nổi bật với khách hàng, nhà đầu tư và
+                            kể cả những đồng nghiệp xung quanh cũng là ý kiến...</div>
+                        <div class="btn">READ MORE</div>
+                    </div>
+                    <div class="common-content-right-small">
+                        <div class="image-content-right image-3"></div>
+                        <div class="title-content-right">Pantone công bố Màu Của
+                            Năm 2021: Illuminating Và Ultimate Gray</div>
+                        <div class="time-content-right">January 6, 2021</div>
+                        <div class="post-content-right">Hai màu sắc của năm 2021
+                            mang ý nghĩa sâu sắc: Vàng rực rỡ
+                            (Illuminating) – Xám tối thượng (Ultimate Gray) với
+                            ý nghĩa “ánh sáng cuối đường hầm”. Màu sắc của
+                            năm được chọn dựa trên những nghiên cứu, phân tích
+                            xu hướng của xã hội. PANTONE 13-0647 Illuminating
+                            + PANTONE 17-5104 Ultimate Gray, sự kết hợp của màu
+                            sắc truyền tải thông điệp về sức mạnh và hy...
+                        </div>
+                        <div class="btn">READ MORE</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-footer">
+                <div class="parent-footer">
+                    <div class="common-footer">
+                        <div class="common-present-footer">Liên Hệ</div>
+                        <div class="common-col-footer">
+
+                            <div class="text-footer">
+                                <div class="common-text-footer">Chi nhánh 1 :
+                                    499, Nguyễn Đình
+                                    Chiểu, Phường 2, Quận 3.</div>
+                                <div class="common-text-footer">Chi nhánh 2 :
+                                    267/1A, Nguyễn Văn
+                                    Đậu, Phường 11, Bình Thạnh.( Chưa đón khách
+                                    )</div>
+                                <div class="common-text-footer">Chi nhánh 3 :
+                                    39, Huỳnh Văn
+                                    Bánh, Phường 17, Phú Nhuận</div>
+                                <div class="common-text-footer">Chi nhánh 4 :
+                                    119 , Quang Trung,
+                                    Phường 10, Gò Vấp ( Mới khai trương )</div>
+                                <div class="common-text-footer">Chi nhánh 5 :
+                                    07, Phan Chu
+                                    Trinh, Quảng Ngãi.</div>
+                                <div class="common-text-footer pointer">fb.com/lethnicvietnam</div>
+                                <div class="common-text-footer pointer">info@lethnic.vn</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-footer">
+                        <div class="common-present-footer">Hữu Ích</div>
+                        <div class="common-col-footer">
+                            <div class="common-text-footer pointer">Giới thiệu</div>
+                            <div class="common-text-footer pointer">Chính sách
+                                bảo mật</div>
+                            <div class="common-text-footer pointer">Chính sách
+                                đổi trả</div>
+                            <div class="common-text-footer pointer">Điều khoản
+                                dịch vụ</div>
+                            <div class="common-text-footer pointer">Liên hệ</div>
+                            <div class="common-text-footer pointer">Tra Cứu Đơn
+                                Hàng</div>
+                            <div class="common-text-footer pointer">Demo Khắc
+                                Tên</div>
+                        </div>
+                    </div>
+                    <div class="common-footer">
+                        <div class="common-present-footer">Truy Cập Nhanh</div>
+                        <div class="common-col-footer">
+                            <div class="common-text-footer pointer">Ví Nam</div>
+                            <div class="common-text-footer pointer">Ví Nữ</div>
+                            <div class="common-text-footer pointer">Phụ Kiện</div>
+                            <div class="common-text-footer pointer">>Blog</div>
+                            <div class="common-text-footer pointer">Tuyển Dụng</div>
+                        </div>
+                    </div>
+                    <div class="common-footer">
+                        <div class="common-present-footer">Kết Nối</div>
+                        <div class="common-col-footer">
+                            <div class="common-text-footer pointer">Facebook</div>
+                            <div class="common-text-footer pointer">Instagram</div>
+                            <div class="common-text-footer pointer">YouTube</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <!-- <script src="../main-page/lethnic.js"></script> -->
+
+    </html>
